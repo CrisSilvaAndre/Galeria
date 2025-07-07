@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f0f2f5;
+}
+
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#submit-btn:enabled {
+  background-color: #4CAF50;
+  color: white;
+}
